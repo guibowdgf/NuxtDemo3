@@ -1,0 +1,58 @@
+[
+  {
+    "name": "index___ch",
+    "path": "/ch",
+    "component": "/media/benny/新加卷/Benny/Vue test/gitdemo/NuxtDemo3/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_b804b4c4"
+  },
+  {
+    "name": "index___en",
+    "path": "/en",
+    "component": "/media/benny/新加卷/Benny/Vue test/gitdemo/NuxtDemo3/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_b804b4c4"
+  },
+  {
+    "name": "pageA___ch",
+    "path": "/ch/pageA",
+    "component": "/media/benny/新加卷/Benny/Vue test/gitdemo/NuxtDemo3/pages/pageA.vue",
+    "chunkName": "pages/pageA",
+    "_name": "_07190c5e"
+  },
+  {
+    "name": "pageB___ch",
+    "path": "/ch/pageB",
+    "component": "/media/benny/新加卷/Benny/Vue test/gitdemo/NuxtDemo3/pages/pageB.vue",
+    "chunkName": "pages/pageB",
+    "_name": "_072723df"
+  },
+  {
+    "name": "pageC___ch",
+    "path": "/ch/pageC",
+    "component": "/media/benny/新加卷/Benny/Vue test/gitdemo/NuxtDemo3/pages/pageC.vue",
+    "chunkName": "pages/pageC",
+    "_name": "_07353b60"
+  },
+  {
+    "name": "pageA___en",
+    "path": "/en/pageA",
+    "component": "/media/benny/新加卷/Benny/Vue test/gitdemo/NuxtDemo3/pages/pageA.vue",
+    "chunkName": "pages/pageA",
+    "_name": "_07190c5e"
+  },
+  {
+    "name": "pageB___en",
+    "path": "/en/pageB",
+    "component": "/media/benny/新加卷/Benny/Vue test/gitdemo/NuxtDemo3/pages/pageB.vue",
+    "chunkName": "pages/pageB",
+    "_name": "_072723df"
+  },
+  {
+    "name": "pageC___en",
+    "path": "/en/pageC",
+    "component": "/media/benny/新加卷/Benny/Vue test/gitdemo/NuxtDemo3/pages/pageC.vue",
+    "chunkName": "pages/pageC",
+    "_name": "_07353b60"
+  }
+]

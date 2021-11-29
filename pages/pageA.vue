@@ -4,7 +4,15 @@
     <ComApi></ComApi>
     <br>
     <ShowParams :name="data1.name"></ShowParams>
-
+    <div>
+      <h1>Color mode: {{ $colorMode.value }}</h1>
+      <select v-model="$colorMode.preference">
+        <option value="system">System</option>
+        <option value="light">Light</option>
+        <option value="dark">Dark</option>
+        <option value="sepia">Sepia</option>
+      </select>
+    </div>
   </div>
 </template>
 <script>
@@ -13,7 +21,7 @@ import { apidata } from '@/components/ComApi.vue'
 import ShowParams from '@/components/ShowParams.vue'
 
 export default {
-  layout:'layoutA',
+  layout: 'layoutA',
   components: {
     ComApi,
     ShowParams
@@ -25,5 +33,6 @@ export default {
   }
 }
 </script>
-<style scoped>
+<style>
+
 </style>

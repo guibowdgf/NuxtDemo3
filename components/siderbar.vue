@@ -1,14 +1,19 @@
 <template>
   <div>
     <div>
-      <nuxt-link :to="pageA">转入pageA</nuxt-link>
-      <nuxt-link :to="pageB">转入pageB</nuxt-link>
-      <nuxt-link :to="pageC">转入pageC</nuxt-link>
+      <ColorMode></ColorMode>
+      <nuxt-link :to="pageA" tag="button">转入pageA</nuxt-link>
+      <nuxt-link :to="pageB" tag="button">转入pageB</nuxt-link>
+      <nuxt-link :to="pageC" tag="button">转入pageC</nuxt-link>
     </div>
   </div>
 </template>
 <script>
+import ColorMode from '@/components/ColorMode.vue'
+
+
 export default {
+  components: { ColorMode },
   data () {
     return {
       pageA: `/${this.$route.path.split('/')[1]}/pageA`,
